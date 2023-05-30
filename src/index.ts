@@ -1,5 +1,6 @@
 import cors from 'cors'
 import express, { Application, Request, Response } from 'express'
+import userService from './app/modules/user/user.service'
 import databaseConnect from './utilities/server'
 const app: Application = express()
 
@@ -8,7 +9,13 @@ app.use(express.json())
 app.use(cors())
 app.use(express.urlencoded({ extended: true }))
 
-app.get('/', (req: Request, res: Response) => {
+app.get('/', async (req: Request, res: Response) => {
+  const fakeData = await userService.createUser({
+    id: '00001',
+    role: 'student',
+    password: '56sdf4s4d6f4',
+  })
+  console.log(fakeData)
   res.send('Hello World!')
 })
 
