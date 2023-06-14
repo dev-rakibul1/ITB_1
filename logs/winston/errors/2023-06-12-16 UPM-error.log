@@ -1,0 +1,24 @@
+Mon Jun 12 2023 , 16:1:50 [right meow! THROUGH ERROR] error: Global error ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required!"
+  }
+]
+Mon Jun 12 2023 , 16:1:59 [right meow! THROUGH ERROR] error: Global error ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required!"
+  }
+]

@@ -1,6 +1,7 @@
 import cors from 'cors';
 import express, { Application, Request, Response } from 'express';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import { semesterRoutes } from './app/modules/acadamicSemester/academicSemester.route';
 import { userRoutes } from './app/modules/user/user.route';
 import databaseConnect from './utilities/server';
 const app: Application = express();
@@ -11,8 +12,9 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
 // Application router or Application middleware
-app.use('/api/v1/user/', userRoutes);
 
+app.use('/api/v1/user/', userRoutes);
+app.use('/api/v1/academic-semester/', semesterRoutes);
 /**
  * GLOBAL ERROR HANDLING AND PRODUCTION LABEL
  */
