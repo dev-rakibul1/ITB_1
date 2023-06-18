@@ -1,8 +1,8 @@
 import cors from 'cors';
-import express, { Application, Request, Response } from 'express';
+import express, { Application, NextFunction, Request, Response } from 'express';
+import httpStatus from 'http-status';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
-import { semesterRoutes } from './app/modules/acadamicSemester/academicSemester.route';
-import { userRoutes } from './app/modules/user/user.route';
+import router from './app/routes/all.routes';
 import databaseConnect from './utilities/server';
 const app: Application = express();
 
@@ -13,8 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Application router or Application middleware
 
-app.use('/api/v1/user/', userRoutes);
-app.use('/api/v1/academic-semester/', semesterRoutes);
+app.use('/api/v1', router);
 /**
  * GLOBAL ERROR HANDLING AND PRODUCTION LABEL
  */
@@ -26,11 +25,18 @@ app.use('/api/v1/academic-semester/', semesterRoutes);
 app.use(globalErrorHandler);
 
 // global error handling
-app.get('*', (req: Request, res: Response) => {
-  res.status(404).json({
-    status: 404,
-    message: 'Your route not found',
+app.use('*', (req: Request, res: Response, next: NextFunction) => {
+  res.status(httpStatus.NOT_FOUND).json({
+    success: false,
+    message: 'Not fount.',
+    errorMessage: [
+      {
+        path: req.originalUrl,
+        message: 'API not found!',
+      },
+    ],
   });
+  next();
 });
 
 // database calling
