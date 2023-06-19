@@ -9,7 +9,10 @@ import {
   IAcademicSemesterFilter,
 } from './acadamicSemester.interface';
 import AcademicSemester from './acadamicSemester.model';
-import { academicSemesterTitleCodeMapper } from './academicSemester.constant';
+import {
+  academicSemesterSearchKeys,
+  academicSemesterTitleCodeMapper,
+} from './academicSemester.constant';
 
 const createSemester = async (
   payload: IAcademicSemester
@@ -29,15 +32,8 @@ const getAllSemesterService = async (
   filters: IAcademicSemesterFilter,
   pagination: IPaginationOptions
 ): Promise<IGenResponse<IAcademicSemester[]>> => {
-  const { searchTerm } = filters;
+  const { searchTerm, ...searchTermData } = filters;
 
-  const academicSemesterSearchKeys = [
-    'title',
-    'code',
-    'year',
-    'endMonth',
-    'startMonth',
-  ];
   const andConditions = [];
   if (searchTerm) {
     andConditions.push({
@@ -46,6 +42,14 @@ const getAllSemesterService = async (
           $regex: searchTerm,
           $options: 'i',
         },
+      })),
+    });
+  }
+
+  if (Object.keys(searchTermData).length) {
+    andConditions.push({
+      $and: Object.entries(searchTermData).map(([fields, value]) => ({
+        [fields]: value,
       })),
     });
   }

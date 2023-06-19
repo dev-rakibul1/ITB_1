@@ -6,6 +6,7 @@ import pick from '../../../shared/pick';
 import sendResponse from '../../../shared/sendResponse';
 import { IAcademicSemester } from './acadamicSemester.interface';
 import { AcademicSemesterService } from './acadamicSemester.service';
+import { academicSemesterFilterableField } from './academicSemester.constant';
 
 const createAcademicSemester = catchAsync(
   async (req: Request, res: Response) => {
@@ -31,7 +32,7 @@ const getAllSemester = catchAsync(async (req: Request, res: Response) => {
   //   sortOrder: req.query.sortOrder,
   // };
 
-  const filters = pick(req.query, ['searchTerm']);
+  const filters = pick(req.query, academicSemesterFilterableField);
   // const filters: IAcademicSemesterFilter = pick(req.query, ['searchTerm']);
 
   const paginationOptions = pick(req.query, paginationFields);
