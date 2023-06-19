@@ -4,7 +4,10 @@ import ApiError from '../../../errors/ApiError';
 import { paginationHelper } from '../../../helpers/paginationHelpers';
 import { IGenResponse } from '../../interfaces/common';
 import { IPaginationOptions } from '../../interfaces/pagination';
-import { IAcademicSemester } from './acadamicSemester.interface';
+import {
+  IAcademicSemester,
+  IAcademicSemesterFilter,
+} from './acadamicSemester.interface';
 import AcademicSemester from './acadamicSemester.model';
 import { academicSemesterTitleCodeMapper } from './academicSemester.constant';
 
@@ -23,8 +26,67 @@ const createSemester = async (
 // get all semester
 
 const getAllSemesterService = async (
+  filters: IAcademicSemesterFilter,
   pagination: IPaginationOptions
 ): Promise<IGenResponse<IAcademicSemester[]>> => {
+  const { searchTerm } = filters;
+
+  const academicSemesterSearchKeys = [
+    'title',
+    'code',
+    'year',
+    'endMonth',
+    'startMonth',
+  ];
+  const andConditions = [];
+  if (searchTerm) {
+    andConditions.push({
+      $or: academicSemesterSearchKeys.map(field => ({
+        [field]: {
+          $regex: searchTerm,
+          $options: 'i',
+        },
+      })),
+    });
+  }
+
+  // const andConditions = [
+  //   {
+  //     $or: [
+  //       {
+  //         title: {
+  //           $regex: searchTerm,
+  //           $options: 'i',
+  //         },
+  //       },
+  //       {
+  //         code: {
+  //           $regex: searchTerm,
+  //           $options: 'i',
+  //         },
+  //       },
+  //       {
+  //         year: {
+  //           $regex: searchTerm,
+  //           $options: 'i',
+  //         },
+  //       },
+  //       {
+  //         startMonth: {
+  //           $regex: searchTerm,
+  //           $options: 'i',
+  //         },
+  //       },
+  //       {
+  //         endMonth: {
+  //           $regex: searchTerm,
+  //           $options: 'i',
+  //         },
+  //       },
+  //     ],
+  //   },
+  // ];
+
   const { page, limit, skip, sortBy, sortOrder } =
     paginationHelper.paginationCalculation(pagination);
 
@@ -34,7 +96,7 @@ const getAllSemesterService = async (
     sortConditions[sortBy] = sortOrder;
   }
 
-  const result = await AcademicSemester.find({})
+  const result = await AcademicSemester.find({ $and: andConditions })
     .sort(sortConditions)
     .limit(limit)
     .skip(skip);
