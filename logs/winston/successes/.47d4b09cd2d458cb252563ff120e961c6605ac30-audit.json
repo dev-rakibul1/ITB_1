@@ -6,11 +6,6 @@
     "auditLog": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\.47d4b09cd2d458cb252563ff120e961c6605ac30-audit.json",
     "files": [
         {
-            "date": 1685980928934,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-05-22 UPM-success.log",
-            "hash": "ede92c3d9ff8425d37ee45697161eff450f92ed2d31c84737e95580db9609f02"
-        },
-        {
             "date": 1686380843578,
             "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-10-13 UPM-success.log",
             "hash": "25ef2587e2ee369557be76586ba39746920b3bb2def0a338178c2a604e5dbe49"
@@ -159,6 +154,16 @@
             "date": 1687172406977,
             "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-19-17 UPM-success.log",
             "hash": "ed9fb150d110dc30d2f10969c3ba145e4c3233899e8e4b0631a2db1db6504032"
+        },
+        {
+            "date": 1687325618083,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-21-11 UPM-success.log",
+            "hash": "a9fc2cf8da0022cc4a299f97b1d3c8212e5cb28a385332a6a64044d35d478012"
+        },
+        {
+            "date": 1687328042909,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-21-12 UPM-success.log",
+            "hash": "d47495caf3e76d2ee7ff8558832363d99b48e25ac7b274358344f8fa72f35736"
         }
     ],
     "hashType": "sha256"
