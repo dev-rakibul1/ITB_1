@@ -1,170 +1,170 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\.47d4b09cd2d458cb252563ff120e961c6605ac30-audit.json",
+  "files": [
+    {
+      "date": 1686380843578,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-10-13 UPM-success.log",
+      "hash": "25ef2587e2ee369557be76586ba39746920b3bb2def0a338178c2a604e5dbe49"
     },
-    "auditLog": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\.47d4b09cd2d458cb252563ff120e961c6605ac30-audit.json",
-    "files": [
-        {
-            "date": 1686380843578,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-10-13 UPM-success.log",
-            "hash": "25ef2587e2ee369557be76586ba39746920b3bb2def0a338178c2a604e5dbe49"
-        },
-        {
-            "date": 1686503233472,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-11-23 UPM-success.log",
-            "hash": "e3344d7e86174d3eb8e0f6d291058c41e5339eae2116f8a42bac831a8a8a36fd"
-        },
-        {
-            "date": 1686529916085,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-06 UPM-success.log",
-            "hash": "230a313adfeb2c3b383ce9ad1bd374305148b2b9ebf112e2681e628a4adc3abb"
-        },
-        {
-            "date": 1686548223376,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-11 UPM-success.log",
-            "hash": "436fa8524d0ea6541a2fcb54a431bc1e5fc597e89e784d0e28497676bc8408cc"
-        },
-        {
-            "date": 1686552554833,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-12 UPM-success.log",
-            "hash": "054eaaefd09dcabb9766ef6f3599a63bc2d128c0dbf1c43b4eb2361e31a3a49b"
-        },
-        {
-            "date": 1686554559699,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-13 UPM-success.log",
-            "hash": "47fa1e959a8559d46e85e4e68ed4852f5d3205e65a1996d303821243a1c59e3e"
-        },
-        {
-            "date": 1686563131690,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-15 UPM-success.log",
-            "hash": "2d79634530bad40f9e959ba765e61b2139fa91dd837e520941d05acd94fc8cb2"
-        },
-        {
-            "date": 1686564578608,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-16 UPM-success.log",
-            "hash": "4a5f3cd1dc7026a23d6217d6af563cbdd4087df6c06b9cfde48f2e51f2659bdc"
-        },
-        {
-            "date": 1686737869773,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-14-16 UPM-success.log",
-            "hash": "c6ed6e8e0c82cd3f3ad916bb3310b3940431fd01de9af0d5839f9d169ca294d5"
-        },
-        {
-            "date": 1686741392200,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-14-17 UPM-success.log",
-            "hash": "1da4170f00935cefd7398725ab3ab2cb5d7bf768a47d2c28e8f24811d18fd759"
-        },
-        {
-            "date": 1686759370875,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-14-22 UPM-success.log",
-            "hash": "647c6bdb31c0d3e0ee7fdb47fddf7f7047f2c58b9219b6e4b9decd7227f5b5ee"
-        },
-        {
-            "date": 1686762170451,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-14-23 UPM-success.log",
-            "hash": "47846c19609642490b6dcc09493737e60cc41a8899fc5213067462df1866aa2d"
-        },
-        {
-            "date": 1686765608547,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-15-00 UPM-success.log",
-            "hash": "e37ad9242c8d1e933f9413014889d1572b4d9b153f1107dbe2e3c0e4801fe04d"
-        },
-        {
-            "date": 1686910431675,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-16-16 UPM-success.log",
-            "hash": "57e96e95c0778c4f64ab5584efd6a3cede1b7fb45def03b50db6dd361d5fd600"
-        },
-        {
-            "date": 1686922376083,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-16-19 UPM-success.log",
-            "hash": "fe207bc61319767f22e094d51f46b02aadaefe38efc09fbac5b14a033d6d845c"
-        },
-        {
-            "date": 1686924131228,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-16-20 UPM-success.log",
-            "hash": "bb4d541b0d7569486e99ac6acef83165aa9e1cff6cc4a28728a74c2048422770"
-        },
-        {
-            "date": 1686931033668,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-16-21 UPM-success.log",
-            "hash": "3d55333eddb5df7b34b3c85aee60f9d222eb5cd26d6f7b75d79b916e09fcfc97"
-        },
-        {
-            "date": 1686931250844,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-16-22 UPM-success.log",
-            "hash": "369dcaa94e7e4b5758c5f94d4709b87690da21b314beaf96a1e2fa92d1a9dbb1"
-        },
-        {
-            "date": 1686959131783,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-17-05 UPM-success.log",
-            "hash": "0ba0708edf50aeb0e097f3798b23f438f8ab9f7d39114f508af6c29f0ca9b07c"
-        },
-        {
-            "date": 1686960733898,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-17-06 UPM-success.log",
-            "hash": "42a97e97ec91902f8a36baeb4e26ed5dd7dc5ec67f6d5c2aa8b9480bbbd0f338"
-        },
-        {
-            "date": 1686965003792,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-17-07 UPM-success.log",
-            "hash": "4dc4c979e388f01db8f86ee390144ec6c30a14c631602647022dfd527cb235da"
-        },
-        {
-            "date": 1686972009245,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-17-09 UPM-success.log",
-            "hash": "200612144516852a0dd44a29bb823eb8761cad7240116ee2d91adf9484086309"
-        },
-        {
-            "date": 1687072185752,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-18-13 UPM-success.log",
-            "hash": "a1ad15ef61becda462c1b2587fb68e9c4d4266b5d7e5a871c54f5759a468e77b"
-        },
-        {
-            "date": 1687106546936,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-18-22 UPM-success.log",
-            "hash": "2f07a3ec71010a2be00f73df8bb84b1864a3d65fe3e51d5869c848fc338c47b4"
-        },
-        {
-            "date": 1687107677391,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-18-23 UPM-success.log",
-            "hash": "1baed886c5a537a49244704a36f740e4150ff4905eceb738279b4353fdafd68a"
-        },
-        {
-            "date": 1687138515492,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-19-07 UPM-success.log",
-            "hash": "22af6e6bec8b974200367d63992f5e33e3c8bf444d621b6d19bc893dc6f05942"
-        },
-        {
-            "date": 1687141080981,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-19-08 UPM-success.log",
-            "hash": "45d7a43bf264556ef485458c65982ea32e7dfb2413f2bc0843c914fcd9a78cd9"
-        },
-        {
-            "date": 1687158841765,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-19-13 UPM-success.log",
-            "hash": "8f30a83d247f5c0762b0373cd20821369eaf4bb2d9fda6f819c9f72cebfbdb21"
-        },
-        {
-            "date": 1687169851793,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-19-16 UPM-success.log",
-            "hash": "c580446073900f8fffdf755d2dffa3e268b9d51a2ab455a979ed77756be39557"
-        },
-        {
-            "date": 1687172406977,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-19-17 UPM-success.log",
-            "hash": "ed9fb150d110dc30d2f10969c3ba145e4c3233899e8e4b0631a2db1db6504032"
-        },
-        {
-            "date": 1687325618083,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-21-11 UPM-success.log",
-            "hash": "a9fc2cf8da0022cc4a299f97b1d3c8212e5cb28a385332a6a64044d35d478012"
-        },
-        {
-            "date": 1687328042909,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-21-12 UPM-success.log",
-            "hash": "d47495caf3e76d2ee7ff8558832363d99b48e25ac7b274358344f8fa72f35736"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686503233472,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-11-23 UPM-success.log",
+      "hash": "e3344d7e86174d3eb8e0f6d291058c41e5339eae2116f8a42bac831a8a8a36fd"
+    },
+    {
+      "date": 1686529916085,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-06 UPM-success.log",
+      "hash": "230a313adfeb2c3b383ce9ad1bd374305148b2b9ebf112e2681e628a4adc3abb"
+    },
+    {
+      "date": 1686548223376,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-11 UPM-success.log",
+      "hash": "436fa8524d0ea6541a2fcb54a431bc1e5fc597e89e784d0e28497676bc8408cc"
+    },
+    {
+      "date": 1686552554833,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-12 UPM-success.log",
+      "hash": "054eaaefd09dcabb9766ef6f3599a63bc2d128c0dbf1c43b4eb2361e31a3a49b"
+    },
+    {
+      "date": 1686554559699,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-13 UPM-success.log",
+      "hash": "47fa1e959a8559d46e85e4e68ed4852f5d3205e65a1996d303821243a1c59e3e"
+    },
+    {
+      "date": 1686563131690,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-15 UPM-success.log",
+      "hash": "2d79634530bad40f9e959ba765e61b2139fa91dd837e520941d05acd94fc8cb2"
+    },
+    {
+      "date": 1686564578608,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-12-16 UPM-success.log",
+      "hash": "4a5f3cd1dc7026a23d6217d6af563cbdd4087df6c06b9cfde48f2e51f2659bdc"
+    },
+    {
+      "date": 1686737869773,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-14-16 UPM-success.log",
+      "hash": "c6ed6e8e0c82cd3f3ad916bb3310b3940431fd01de9af0d5839f9d169ca294d5"
+    },
+    {
+      "date": 1686741392200,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-14-17 UPM-success.log",
+      "hash": "1da4170f00935cefd7398725ab3ab2cb5d7bf768a47d2c28e8f24811d18fd759"
+    },
+    {
+      "date": 1686759370875,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-14-22 UPM-success.log",
+      "hash": "647c6bdb31c0d3e0ee7fdb47fddf7f7047f2c58b9219b6e4b9decd7227f5b5ee"
+    },
+    {
+      "date": 1686762170451,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-14-23 UPM-success.log",
+      "hash": "47846c19609642490b6dcc09493737e60cc41a8899fc5213067462df1866aa2d"
+    },
+    {
+      "date": 1686765608547,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-15-00 UPM-success.log",
+      "hash": "e37ad9242c8d1e933f9413014889d1572b4d9b153f1107dbe2e3c0e4801fe04d"
+    },
+    {
+      "date": 1686910431675,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-16-16 UPM-success.log",
+      "hash": "57e96e95c0778c4f64ab5584efd6a3cede1b7fb45def03b50db6dd361d5fd600"
+    },
+    {
+      "date": 1686922376083,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-16-19 UPM-success.log",
+      "hash": "fe207bc61319767f22e094d51f46b02aadaefe38efc09fbac5b14a033d6d845c"
+    },
+    {
+      "date": 1686924131228,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-16-20 UPM-success.log",
+      "hash": "bb4d541b0d7569486e99ac6acef83165aa9e1cff6cc4a28728a74c2048422770"
+    },
+    {
+      "date": 1686931033668,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-16-21 UPM-success.log",
+      "hash": "3d55333eddb5df7b34b3c85aee60f9d222eb5cd26d6f7b75d79b916e09fcfc97"
+    },
+    {
+      "date": 1686931250844,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-16-22 UPM-success.log",
+      "hash": "369dcaa94e7e4b5758c5f94d4709b87690da21b314beaf96a1e2fa92d1a9dbb1"
+    },
+    {
+      "date": 1686959131783,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-17-05 UPM-success.log",
+      "hash": "0ba0708edf50aeb0e097f3798b23f438f8ab9f7d39114f508af6c29f0ca9b07c"
+    },
+    {
+      "date": 1686960733898,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-17-06 UPM-success.log",
+      "hash": "42a97e97ec91902f8a36baeb4e26ed5dd7dc5ec67f6d5c2aa8b9480bbbd0f338"
+    },
+    {
+      "date": 1686965003792,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-17-07 UPM-success.log",
+      "hash": "4dc4c979e388f01db8f86ee390144ec6c30a14c631602647022dfd527cb235da"
+    },
+    {
+      "date": 1686972009245,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-17-09 UPM-success.log",
+      "hash": "200612144516852a0dd44a29bb823eb8761cad7240116ee2d91adf9484086309"
+    },
+    {
+      "date": 1687072185752,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-18-13 UPM-success.log",
+      "hash": "a1ad15ef61becda462c1b2587fb68e9c4d4266b5d7e5a871c54f5759a468e77b"
+    },
+    {
+      "date": 1687106546936,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-18-22 UPM-success.log",
+      "hash": "2f07a3ec71010a2be00f73df8bb84b1864a3d65fe3e51d5869c848fc338c47b4"
+    },
+    {
+      "date": 1687107677391,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-18-23 UPM-success.log",
+      "hash": "1baed886c5a537a49244704a36f740e4150ff4905eceb738279b4353fdafd68a"
+    },
+    {
+      "date": 1687138515492,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-19-07 UPM-success.log",
+      "hash": "22af6e6bec8b974200367d63992f5e33e3c8bf444d621b6d19bc893dc6f05942"
+    },
+    {
+      "date": 1687141080981,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-19-08 UPM-success.log",
+      "hash": "45d7a43bf264556ef485458c65982ea32e7dfb2413f2bc0843c914fcd9a78cd9"
+    },
+    {
+      "date": 1687158841765,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-19-13 UPM-success.log",
+      "hash": "8f30a83d247f5c0762b0373cd20821369eaf4bb2d9fda6f819c9f72cebfbdb21"
+    },
+    {
+      "date": 1687169851793,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-19-16 UPM-success.log",
+      "hash": "c580446073900f8fffdf755d2dffa3e268b9d51a2ab455a979ed77756be39557"
+    },
+    {
+      "date": 1687172406977,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-19-17 UPM-success.log",
+      "hash": "ed9fb150d110dc30d2f10969c3ba145e4c3233899e8e4b0631a2db1db6504032"
+    },
+    {
+      "date": 1687325618083,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-21-11 UPM-success.log",
+      "hash": "a9fc2cf8da0022cc4a299f97b1d3c8212e5cb28a385332a6a64044d35d478012"
+    },
+    {
+      "date": 1687328042909,
+      "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\successes\\2023-06-21-12 UPM-success.log",
+      "hash": "d47495caf3e76d2ee7ff8558832363d99b48e25ac7b274358344f8fa72f35736"
+    }
+  ],
+  "hashType": "sha256"
 }
