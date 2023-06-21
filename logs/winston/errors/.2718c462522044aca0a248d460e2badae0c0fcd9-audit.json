@@ -159,6 +159,11 @@
             "date": 1687169851819,
             "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-19-16 UPM-error.log",
             "hash": "32ed5f9432e82e70de557716575db56280296b04411e507c87d369c676e62c81"
+        },
+        {
+            "date": 1687172406987,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-19-17 UPM-error.log",
+            "hash": "ed0c4e6041de0fea3b2bb95cb3b039363ec2ca2890aa698c873b0eb85e79083c"
         }
     ],
     "hashType": "sha256"
