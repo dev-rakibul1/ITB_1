@@ -1,0 +1,6 @@
+Wed Jun 21 2023 , 21:42:4 [right meow! THROUGH ERROR] error: [37m[41mFail to DB connected! querySrv ETIMEOUT _mongodb._tcp.cluster0.1aftbyg.mongodb.net[49m[39m
+Wed Jun 21 2023 , 21:50:46 [right meow! THROUGH ERROR] error: [37m[41mFail to DB connected! querySrv ETIMEOUT _mongodb._tcp.cluster0.1aftbyg.mongodb.net[49m[39m
+Wed Jun 21 2023 , 21:52:52 [right meow! THROUGH ERROR] error: [37m[41mFail to DB connected! querySrv ETIMEOUT _mongodb._tcp.cluster0.1aftbyg.mongodb.net[49m[39m
+Wed Jun 21 2023 , 21:54:28 [right meow! THROUGH ERROR] error: [37m[41mFail to DB connected! querySrv ETIMEOUT _mongodb._tcp.cluster0.1aftbyg.mongodb.net[49m[39m
+Wed Jun 21 2023 , 21:58:14 [right meow! THROUGH ERROR] error: [37m[41mFail to DB connected! connection timed out[49m[39m
+Wed Jun 21 2023 , 21:59:45 [right meow! THROUGH ERROR] error: [37m[41mFail to DB connected! connection timed out[49m[39m
