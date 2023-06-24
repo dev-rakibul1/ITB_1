@@ -2,9 +2,11 @@ import { SortOrder } from 'mongoose';
 import { paginationHelper } from '../../../helpers/paginationHelpers';
 import { IGenResponse } from '../../interfaces/common';
 import { IPaginationOptions } from '../../interfaces/pagination';
-import { IAcademicSemesterFilter } from '../acadamicSemester/acadamicSemester.interface';
-import { academicSemesterSearchKeys } from '../acadamicSemester/academicSemester.constant';
-import { IAcademicFaculty } from './academicFaculty.interface';
+import { academicSemesterSearchKeys } from '../academicSemester/academicSemester.constant';
+import {
+  IAcademicFaculty,
+  IAcademicFacultyFilters,
+} from './academicFaculty.interface';
 import { AcademicFaculty } from './academicFaculty.model';
 
 const createFacultyServices = async (
@@ -15,7 +17,7 @@ const createFacultyServices = async (
 };
 
 const getFacultyService = async (
-  filters: IAcademicSemesterFilter,
+  filters: IAcademicFacultyFilters,
   payload: IPaginationOptions
 ): Promise<IGenResponse<IAcademicFaculty[]>> => {
   // search stream
@@ -49,8 +51,8 @@ const getFacultyService = async (
   if (sortBy && sortOrder) {
     sortConditions[sortBy] = sortOrder;
   }
-
-  const result = await AcademicFaculty.find()
+  const whereConditions = andConditions.length ? { $and: andConditions } : {};
+  const result = await AcademicFaculty.find(whereConditions)
     .sort(sortConditions)
     .limit(limit)
     .skip(skip);
@@ -86,9 +88,17 @@ const deleteFaculty = async (
   return result;
 };
 
+const getSingleFacultyService = async (
+  id: string
+): Promise<IAcademicFaculty | null> => {
+  const singleFaculty = await AcademicFaculty.findById(id);
+  return singleFaculty;
+};
+
 export const facultyService = {
   createFacultyServices,
   getFacultyService,
   updateFacultyService,
   deleteFaculty,
+  getSingleFacultyService,
 };

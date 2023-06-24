@@ -8,6 +8,15 @@ const createFacultyZodValidation = z.object({
   }),
 });
 
+const updateFacultyZodValidation = z.object({
+  body: z.object({
+    title: z.string({
+      required_error: 'When you update faculty title must need title.',
+    }),
+  }),
+});
+
 export const academicFacultyZodValidation = {
   createFacultyZodValidation,
+  updateFacultyZodValidation,
 };

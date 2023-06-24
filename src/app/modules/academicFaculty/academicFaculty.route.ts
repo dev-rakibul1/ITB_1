@@ -5,8 +5,13 @@ import { academicFacultyZodValidation } from './academicFaculty.zodValidation';
 
 const router = express.Router();
 
-router.patch('/:id', facultyController.updateFaculty);
+router.patch(
+  '/:id',
+  validateRequest(academicFacultyZodValidation.updateFacultyZodValidation),
+  facultyController.updateFaculty
+);
 router.delete('/:id', facultyController.deleteFaculty);
+router.get('/:id', facultyController.getSingleFaculty);
 router.post(
   '/create-faculty',
   validateRequest(academicFacultyZodValidation.createFacultyZodValidation),

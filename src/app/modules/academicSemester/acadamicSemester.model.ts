@@ -2,14 +2,14 @@ import status from 'http-status';
 import { Schema, model } from 'mongoose';
 import ApiError from '../../../errors/ApiError';
 import {
-  AcademicSemesterModel,
-  IAcademicSemester,
-} from './acadamicSemester.interface';
-import {
   academicSemesterCode,
   academicSemesterMonths,
   academicSemesterTitle,
 } from './academicSemester.constant';
+import {
+  AcademicSemesterModel,
+  IAcademicSemester,
+} from './academicSemester.interface';
 
 const academicSemesterSchema = new Schema<IAcademicSemester>(
   {
@@ -38,7 +38,12 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
       enum: academicSemesterMonths,
     },
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+    toJSON: {
+      virtuals: true,
+    },
+  }
 );
 
 academicSemesterSchema.pre('save', async function (next) {
