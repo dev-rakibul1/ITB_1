@@ -12,6 +12,7 @@ const academicSemesterFacultySchema = new Schema<
     title: {
       type: String,
       require: true,
+      min: [5, 'Min 5 charter require'],
     },
   },
   {

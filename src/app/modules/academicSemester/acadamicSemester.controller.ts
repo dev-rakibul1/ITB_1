@@ -4,9 +4,9 @@ import { paginationFields } from '../../../constants/paginationsFields';
 import catchAsync from '../../../shared/catchAsync';
 import pick from '../../../shared/pick';
 import sendResponse from '../../../shared/sendResponse';
-import { IAcademicSemester } from './acadamicSemester.interface';
 import { AcademicSemesterService } from './acadamicSemester.service';
 import { academicSemesterFilterableField } from './academicSemester.constant';
+import { IAcademicSemester } from './academicSemester.interface';
 
 const createAcademicSemester = catchAsync(
   async (req: Request, res: Response) => {

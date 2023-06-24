@@ -4,7 +4,7 @@ import { paginationFields } from '../../../constants/paginationsFields';
 import catchAsync from '../../../shared/catchAsync';
 import pick from '../../../shared/pick';
 import sendResponse from '../../../shared/sendResponse';
-import { academicSemesterFilterableField } from '../acadamicSemester/academicSemester.constant';
+import { academicFacultyFilterableField } from './academicFaculty.constant';
 import { IAcademicFaculty } from './academicFaculty.interface';
 import { facultyService } from './academicFaculty.services';
 
@@ -13,7 +13,7 @@ const createFaculty = catchAsync(async (req: Request, res: Response) => {
 
   const result = await facultyService.createFacultyServices(faculty);
 
-  sendResponse(res, {
+  sendResponse<IAcademicFaculty>(res, {
     statusCode: status.OK,
     success: true,
     message: 'Faculty create successfully!',
@@ -29,7 +29,7 @@ const getFaculty = catchAsync(async (req: Request, res: Response) => {
   //   sortOrder: req.query.sortOrder,
   // };
 
-  const filters = pick(req.query, academicSemesterFilterableField);
+  const filters = pick(req.query, academicFacultyFilterableField);
   const paginationOptions = pick(req.query, paginationFields);
 
   const result = await facultyService.getFacultyService(
@@ -73,9 +73,23 @@ const deleteFaculty = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const getSingleFaculty = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+
+  const result = await facultyService.getSingleFacultyService(id);
+
+  sendResponse(res, {
+    statusCode: status.OK,
+    success: true,
+    message: 'Single faculty get successfully!',
+    data: result,
+  });
+});
+
 export const facultyController = {
   createFaculty,
   getFaculty,
   updateFaculty,
   deleteFaculty,
+  getSingleFaculty,
 };

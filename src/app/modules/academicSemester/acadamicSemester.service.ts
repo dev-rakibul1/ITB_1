@@ -4,15 +4,15 @@ import ApiError from '../../../errors/ApiError';
 import { paginationHelper } from '../../../helpers/paginationHelpers';
 import { IGenResponse } from '../../interfaces/common';
 import { IPaginationOptions } from '../../interfaces/pagination';
-import {
-  IAcademicSemester,
-  IAcademicSemesterFilter,
-} from './acadamicSemester.interface';
 import AcademicSemester from './acadamicSemester.model';
 import {
   academicSemesterSearchKeys,
   academicSemesterTitleCodeMapper,
 } from './academicSemester.constant';
+import {
+  IAcademicSemester,
+  IAcademicSemesterFilter,
+} from './academicSemester.interface';
 
 const createSemester = async (
   payload: IAcademicSemester
