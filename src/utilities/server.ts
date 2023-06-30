@@ -11,7 +11,7 @@ import { errorLogger, logger } from '../shared/logger';
 let server: Server;
 const databaseConnect = async () => {
   try {
-    await mongoose.connect(config.database_local_url as string);
+    await mongoose.connect(config.database_urls as string);
     logger.info(colors.black.underline.bgGreen('Database is connected!'));
 
     server = app.listen(config.port, () => {

@@ -78,7 +78,7 @@ const updateAcademicDepartmentService = async (
 ): Promise<IAcademicDepartment | null> => {
   const result = await AcademicDepartment.findByIdAndUpdate(id, payload, {
     new: true,
-  }).populate('academicFaculty');
+  });
   return result;
 };
 
