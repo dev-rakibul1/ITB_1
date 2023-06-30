@@ -6,71 +6,6 @@
     "auditLog": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\.2718c462522044aca0a248d460e2badae0c0fcd9-audit.json",
     "files": [
         {
-            "date": 1686503233496,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-11-23 UPM-error.log",
-            "hash": "f305fe58abf30fe20d30190000d1e353cdcbab52408f3543c109c174ee08ecf2"
-        },
-        {
-            "date": 1686529916103,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-12-06 UPM-error.log",
-            "hash": "2bcd55323acf82267321018fb63190f11a92540ac0183f4b70c5eb2c53034237"
-        },
-        {
-            "date": 1686548223394,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-12-11 UPM-error.log",
-            "hash": "0f7f8a3e2edfc9e192dc5479038afedc873dd25f49352758c501331d130c4ff7"
-        },
-        {
-            "date": 1686552554843,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-12-12 UPM-error.log",
-            "hash": "cf008cae30ca6b1a10cc6e3e9211d379062fcb03fdb6d50a040616ea1f1288f7"
-        },
-        {
-            "date": 1686554559720,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-12-13 UPM-error.log",
-            "hash": "0d6ea45f818c2e1f0e3ec80184ebcb144433b6f3817920effab99fe4bde7a660"
-        },
-        {
-            "date": 1686563131718,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-12-15 UPM-error.log",
-            "hash": "af4c2582db7fe46e3113986811d2e58cf102ace5f67fe08284d0442271d97cdf"
-        },
-        {
-            "date": 1686564110873,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-12-16 UPM-error.log",
-            "hash": "d169e5fcf28679ad37659f670a7ec1c7fd3c438211bb8bde40283a8772b9dd76"
-        },
-        {
-            "date": 1686737869793,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-14-16 UPM-error.log",
-            "hash": "f57c4bf83d01726c99753e88777d5edd50187aceb022d22a89cb3b1a49275f05"
-        },
-        {
-            "date": 1686741392230,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-14-17 UPM-error.log",
-            "hash": "4c175e4f9990ba71229ede4e405b377a96dc385dbf609864c3271cb3e9664da0"
-        },
-        {
-            "date": 1686759370902,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-14-22 UPM-error.log",
-            "hash": "e29dd5a1f30b1281ca354020af7f0f6cdfcad818e4872bb867cffa86c0a1f352"
-        },
-        {
-            "date": 1686762170466,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-14-23 UPM-error.log",
-            "hash": "e22cbbca1c1cc91d6abd9058239a0949916aeaf57db72664b27c6dbca2394d8a"
-        },
-        {
-            "date": 1686765608557,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-15-00 UPM-error.log",
-            "hash": "5bdce1f61a8e5b0205841b5f49485fd4e61e299657ff4f48fc263ae76ef4eaf6"
-        },
-        {
-            "date": 1686910431698,
-            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-16-16 UPM-error.log",
-            "hash": "1eed501e2ce8792e023000bdab3c9871da712613fe65363410ac4537533d47cb"
-        },
-        {
             "date": 1686922376095,
             "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-16-19 UPM-error.log",
             "hash": "aea44cf8ffa133e381d5aa7a92c7ed8875c0f9cfb17ce1783fb597e1a60e60ba"
@@ -244,6 +179,146 @@
             "date": 1687608246601,
             "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-24-18 UPM-error.log",
             "hash": "b5a96ecd27cc8033c684ed8a77178062bd8fcd29fb7242a9ea0161f6706e65e2"
+        },
+        {
+            "date": 1687615947297,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-24-20 UPM-error.log",
+            "hash": "d86d55e40e571e77263467cf5efbafbe394e82c62bf136d38d5d132b3e950cb9"
+        },
+        {
+            "date": 1687619527707,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-24-21 UPM-error.log",
+            "hash": "d01c0df56d0a65c1ba6305922406ebb95024a4cca65901fe12122c6dea3b1bb2"
+        },
+        {
+            "date": 1687622538071,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-24-22 UPM-error.log",
+            "hash": "94a572f58b263edc5039d866eda12dd57ce10e04d6492ced3f2248bc2c8bbfde"
+        },
+        {
+            "date": 1687664515824,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-25-09 UPM-error.log",
+            "hash": "ddb178967fbbd27bcfafa26792d31b7b8c0f3966b99cba71fcdbef86dd8f5107"
+        },
+        {
+            "date": 1687665912909,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-25-10 UPM-error.log",
+            "hash": "95e237a67ab1a501dc00eb8ca01047b21ef170df1c25b71886078e9f0877a782"
+        },
+        {
+            "date": 1687692192417,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-25-17 UPM-error.log",
+            "hash": "9989ffdbfec2ede67288009216555721b537d399df89ed0f66a8709b794f8f82"
+        },
+        {
+            "date": 1687696370278,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-25-18 UPM-error.log",
+            "hash": "b4108bcb26cef5c5df2770e086ace3841a7496d21cdf57996875a27539fef0c0"
+        },
+        {
+            "date": 1687768417848,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-26-14 UPM-error.log",
+            "hash": "2ec62e8f599930d6d04cfa6d75742841e5311a8950c66488d92bf377e5a35668"
+        },
+        {
+            "date": 1687795362116,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-26-22 UPM-error.log",
+            "hash": "fc7563fc7b02de9b9160c402d8685cef4f17289f37583b5412c861042997b19f"
+        },
+        {
+            "date": 1687798843915,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-26-23 UPM-error.log",
+            "hash": "3c75d8804470c169d68a0661a68e485cc142690e30a9f04e4be5e2fc8dd5fd0d"
+        },
+        {
+            "date": 1687825447554,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-27-06 UPM-error.log",
+            "hash": "ee886e303e655ad07617155b6c23f6ec5f4b1d4106e4027127dc0753c55db1b8"
+        },
+        {
+            "date": 1687827623619,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-27-07 UPM-error.log",
+            "hash": "a438769f4771830edf9e76947046a4f69cbac827e133848a7cc5311c40b48672"
+        },
+        {
+            "date": 1687841857043,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-27-10 UPM-error.log",
+            "hash": "a7111b650f3abdd11c3fb773b774c4a3ac85346e370333a2b6d51bd6c60da7f5"
+        },
+        {
+            "date": 1687842428757,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-27-11 UPM-error.log",
+            "hash": "bebed80d22f8dd9d680bf0e748b270575ae5ab5dc0adcde4d990979cb7fcaa38"
+        },
+        {
+            "date": 1687852082530,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-27-13 UPM-error.log",
+            "hash": "7b381746d056e1dc83940fef0c85c9cf3615969258e19a3979b5b8765a797192"
+        },
+        {
+            "date": 1687852957236,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-27-14 UPM-error.log",
+            "hash": "42a9eca52e0b64eb55d8f4a89b96d7be0ea5600a389b9bb8c9992239fd353997"
+        },
+        {
+            "date": 1687875363650,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-27-20 UPM-error.log",
+            "hash": "d3b744bd1f870a63f996211ce974c6f73237aaa7f5292f892469b75c01d2ed6d"
+        },
+        {
+            "date": 1687878083134,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-27-21 UPM-error.log",
+            "hash": "81e52b38c1436870081f1ee18e705529c230a44ea1b107a3af983daa839ab829"
+        },
+        {
+            "date": 1687918822048,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-28-08 UPM-error.log",
+            "hash": "196a0e8ef3b10c57ede2889c0b3667e18f84775ac46e57724bdc99df00eb4c0a"
+        },
+        {
+            "date": 1687938052850,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-28-13 UPM-error.log",
+            "hash": "b48c9933a577fccec596448a7070271e6926e621269bd3ce68864d6223ee36b2"
+        },
+        {
+            "date": 1687939242585,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-28-14 UPM-error.log",
+            "hash": "9bc5e9332d7af47635a398325893f0aabd89bdd5682250baa8fa7f3baf35a113"
+        },
+        {
+            "date": 1687954193981,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-28-18 UPM-error.log",
+            "hash": "34c7293a607615bee5187f7f9819d783fab1e07538c2fea241ff361e682590d8"
+        },
+        {
+            "date": 1687957937130,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-28-19 UPM-error.log",
+            "hash": "3f0356f34525c442bfc2f93aaaab1763cef50a12d7efb537a17982c72ee5f546"
+        },
+        {
+            "date": 1688016037249,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-29-11 UPM-error.log",
+            "hash": "235f656ae18a784d86af4bef3a5f055af9d3dc730f3c1e73710c8fbea4522997"
+        },
+        {
+            "date": 1688050501412,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-29-20 UPM-error.log",
+            "hash": "f22179e7d9978bc975bdf22ed1cfff5a918374763ba4610e37f50777d1df9baf"
+        },
+        {
+            "date": 1688105440403,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-30-12 UPM-error.log",
+            "hash": "a9ead70cdf7f212e0148e7a790f95a6c07155b95a2693c81451c9a2628d630ea"
+        },
+        {
+            "date": 1688124908730,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-30-17 UPM-error.log",
+            "hash": "75d7cd10e62387257d4867e28a69fd1e3bd31b4e9b51da9d0e4b78afa8305573"
+        },
+        {
+            "date": 1688126465201,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\Lavel_2\\Mission_03\\university_project_management_auth_backend\\logs\\winston\\errors\\2023-06-30-18 UPM-error.log",
+            "hash": "3980522aec068b8102d7fb63223136d9ca71f7f225b487034a3ce6ac1da9d872"
         }
     ],
     "hashType": "sha256"
