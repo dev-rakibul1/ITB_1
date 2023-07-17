@@ -30,7 +30,7 @@ const createFaculty = catchAsync(async (req: Request, res: Response) => {
 });
 
 const createAdmin = catchAsync(async (req: Request, res: Response) => {
-  const { faculty: admin, ...userData } = req.body;
+  const { admin, ...userData } = req.body;
   const result = await userServices.createAdminService(admin, userData);
 
   sendResponse<IUser>(res, {

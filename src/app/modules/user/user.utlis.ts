@@ -14,7 +14,7 @@ const findLastStudentId = async (): Promise<string | null | undefined> => {
 };
 
 // generate student id
-const generateStudentId = async (
+export const generateStudentId = async (
   academicSemester: IAcademicSemester | null
 ): Promise<string> => {
   const currentId =
@@ -64,8 +64,6 @@ export const generateAdminId = async (): Promise<string> => {
     (await findLastAdminId()) || (0).toString().padStart(5, '0');
   let incrementedId = (parseInt(currentId) + 1).toString().padStart(5, '0');
   incrementedId = `A-${incrementedId}`;
-
+  console.log('incrementedId', incrementedId);
   return incrementedId;
 };
-
-export default generateStudentId;
