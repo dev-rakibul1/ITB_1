@@ -5,6 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "dev": "node dist/index.ts",
+    "build": "tsc",
     "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "lint:fix": "eslint . --fix",
     "prettier:fix": "prettier --write .",
