@@ -1,5 +1,6 @@
 export const bloodGroup = ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'];
-export const studentGender = ['Male', 'Female', 'Other'];
+export const studentGender = ['male', 'female', 'other'];
+
 export const studentFilterableField = [
   'searchTerm',
   '_id',

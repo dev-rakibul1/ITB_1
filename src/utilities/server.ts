@@ -1,4 +1,3 @@
-import colors from 'colors';
 import dotenv from 'dotenv';
 import { Server } from 'http';
 import mongoose from 'mongoose';
@@ -12,23 +11,19 @@ let server: Server;
 const databaseConnect = async () => {
   try {
     await mongoose.connect(config.database_urls as string);
-    logger.info(colors.black.underline.bgGreen('Database is connected!'));
+    logger.info('Database is connected!');
 
     server = app.listen(config.port, () => {
-      logger.info(
-        colors.bgMagenta.brightYellow(
-          `Example app listening on port ${config.port}`
-        )
-      );
+      logger.info(`Example app listening on port ${config.port}`);
     });
   } catch (error) {
-    errorLogger.error(
-      colors.white.bgRed('Fail to DB connected!', error.message)
-    );
+    errorLogger.error('Fail to DB connected!');
   }
 };
+// mongoose.set('strictPopulate', false);
+
 process.on('unhandledRejection', error => {
-  errorLogger.log(error);
+  // errorLogger.log(error);
   if (server) {
     server.close(() => {
       errorLogger.error(error);
