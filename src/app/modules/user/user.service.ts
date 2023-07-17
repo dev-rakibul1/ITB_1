@@ -11,9 +11,10 @@ import { IStudent } from '../student/student.interface';
 import { Student } from '../student/student.model';
 import { IUser } from './user.interface';
 import User from './user.model';
-import generateStudentId, {
+import {
   generateAdminId,
   generateFacultyId,
+  generateStudentId,
 } from './user.utlis';
 
 const createStudentService = async (
@@ -164,7 +165,7 @@ const createAdminService = async (
   const session = await mongoose.startSession();
 
   try {
-    session.startTransaction();
+    await session.startTransaction();
     // generate admin id
     const id = await generateAdminId();
     user.id = id;
@@ -173,7 +174,7 @@ const createAdminService = async (
     const newAdmin = await Admin.create([admin], { session });
 
     if (!newAdmin.length) {
-      throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create faculty ');
+      throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create admin ');
     }
 
     user.admin = newAdmin[0]._id;
@@ -184,7 +185,6 @@ const createAdminService = async (
       throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create admin');
     }
     newUserAllData = newUser[0];
-
     await session.commitTransaction();
     await session.endSession();
   } catch (error) {
