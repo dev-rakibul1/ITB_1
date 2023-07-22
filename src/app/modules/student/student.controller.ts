@@ -58,6 +58,7 @@ const updateSingleStudent = catchAsync(async (req: Request, res: Response) => {
 
 const deleteSingleStudent = catchAsync(async (req: Request, res: Response) => {
   const { id } = req.params;
+  console.log(id);
 
   const result = await studentService.deleteSingleStudentService(id);
 

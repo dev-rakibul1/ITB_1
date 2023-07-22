@@ -158,6 +158,7 @@ const createAdminService = async (
   if (!user.password) {
     user.password = config.admin_password as string;
   }
+
   // set role
   user.role = 'admin';
 
