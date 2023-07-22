@@ -1,22 +1,18 @@
-import { Model, Types } from 'mongoose';
-import { IStudent } from '../student/student.interface';
+import { Model } from 'mongoose';
 
 export type IUser = {
-  id: string;
-  role: string;
+  name: string;
+  role?: string;
+  email: string;
   password: string;
-  needPasswordChange: true | false;
-  student?: Types.ObjectId | IStudent;
-  faculty?: Types.ObjectId; //| IFaculty;
-  admin?: Types.ObjectId; // | IAdmin;
 };
 
 export type IUserMethods = {
-  isIdExist(id: string): Promise<Partial<IUser> | null>;
+  isUserExist(email: string): Promise<Partial<IUser | null>>;
   isPasswordMatch(
     currentPassword: string,
     savePassword: string
   ): Promise<boolean>;
 };
 
-export type UserModel = Model<IUser, Record<string, unknown>, IUserMethods>;
+export type userModel = Model<IUser, Record<string, unknown>, IUserMethods>;

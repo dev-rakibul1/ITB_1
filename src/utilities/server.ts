@@ -10,7 +10,7 @@ import { errorLogger, logger } from '../shared/logger';
 let server: Server;
 const databaseConnect = async () => {
   try {
-    await mongoose.connect(config.database_urls as string);
+    await mongoose.connect(config.database_local_url as string);
     logger.info('Database is connected!');
 
     server = app.listen(config.port, () => {
@@ -20,7 +20,6 @@ const databaseConnect = async () => {
     errorLogger.error('Fail to DB connected!');
   }
 };
-// mongoose.set('strictPopulate', false);
 
 process.on('unhandledRejection', error => {
   // errorLogger.log(error);

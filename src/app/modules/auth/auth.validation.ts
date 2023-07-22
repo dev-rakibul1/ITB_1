@@ -2,17 +2,17 @@ import { z } from 'zod';
 
 const createLoginAuthValidation = z.object({
   body: z.object({
-    id: z
+    email: z
       .string({
-        required_error: 'Id is required.',
+        required_error: 'Email is required.',
       })
-      .nonempty('Id is required.'),
+      .nonempty('Email is required.'),
     password: z
       .string({
         required_error: 'Password is required.',
       })
       .nonempty('Password you not provide empty value.')
-      .min(6, 'Password must be at least 6 characters long.'),
+      .min(8, 'Password must be at least 8 characters long.'),
   }),
 });
 

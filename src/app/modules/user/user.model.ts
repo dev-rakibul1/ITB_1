@@ -1,40 +1,31 @@
 import bcrypt from 'bcrypt';
 import { Schema, model } from 'mongoose';
 import config from '../../../config/config';
-import { IUser, IUserMethods, UserModel } from './user.interface';
+import { IUser, IUserMethods, userModel } from './user.interface';
 
-const userSchema = new Schema<IUser, Record<string, never>, IUserMethods>(
+const userSchema = new Schema<
+  IUser,
+  Record<string, unknown>,
+  IUserMethods,
+  userModel
+>(
   {
-    id: {
+    name: {
       type: String,
       required: true,
-      unique: true,
     },
     role: {
       type: String,
+    },
+    email: {
+      type: String,
       required: true,
+      unique: true,
     },
     password: {
       type: String,
       required: true,
       select: 0,
-    },
-    needPasswordChange: {
-      type: Boolean,
-      default: true,
-    },
-
-    student: {
-      type: Schema.Types.ObjectId,
-      ref: 'Student',
-    },
-    faculty: {
-      type: Schema.Types.ObjectId,
-      ref: 'Faculty',
-    },
-    admin: {
-      type: Schema.Types.ObjectId,
-      ref: 'Admin',
     },
   },
   {
@@ -45,19 +36,18 @@ const userSchema = new Schema<IUser, Record<string, never>, IUserMethods>(
   }
 );
 
-// id match
-userSchema.methods.isIdExist = async function (
-  id: string
-): Promise<Partial<IUser> | null> {
+// create a user methods
+userSchema.methods.isUserExist = async function (
+  email: string
+): Promise<Partial<IUser | null>> {
   const user = await User.findOne(
-    { id },
-    { id: 1, password: 1, needPasswordChange: 1, role: 1 }
+    { email },
+    { email: 1, password: 1, role: 1 }
   );
-
   return user;
 };
 
-// password match
+// Create a password methods
 userSchema.methods.isPasswordMatch = async function (
   currentPassword: string,
   savePassword: string
@@ -66,7 +56,7 @@ userSchema.methods.isPasswordMatch = async function (
   return user;
 };
 
-// password hash before save password
+// password hashing
 userSchema.pre('save', async function (next) {
   this.password = await bcrypt.hash(
     this.password,
@@ -75,5 +65,5 @@ userSchema.pre('save', async function (next) {
   next();
 });
 
-const User = model<IUser, UserModel>('user', userSchema);
+const User = model<IUser, userModel>('user', userSchema);
 export default User;

@@ -1,0 +1,50 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Programming_subjects\\Programming_Hero\\intertview_task\\interview_task_backend\\university_project_management_auth_service\\logs\\winston\\errors\\.239491bfd0c405f0959ae4fbacdd9e3655ba8180-audit.json",
+    "files": [
+        {
+            "date": 1690021325816,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\intertview_task\\interview_task_backend\\university_project_management_auth_service\\logs\\winston\\errors\\2023-07-22-16 UPM-error.log",
+            "hash": "e4a92ab2c36fc5bcfacbf3810b58b6f50944b000e9c4c4ca828b9b306a891f98"
+        },
+        {
+            "date": 1690023714610,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\intertview_task\\interview_task_backend\\university_project_management_auth_service\\logs\\winston\\errors\\2023-07-22-17 UPM-error.log",
+            "hash": "981e35db541d2d212408c75ec8d5e77308e3178094590402f30abff41c2aaa55"
+        },
+        {
+            "date": 1690028375848,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\intertview_task\\interview_task_backend\\university_project_management_auth_service\\logs\\winston\\errors\\2023-07-22-18 UPM-error.log",
+            "hash": "289276bae45ae597ac9424f98374fd4a12856c8af3b956fb020dd2228b073d46"
+        },
+        {
+            "date": 1690037672066,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\intertview_task\\interview_task_backend\\university_project_management_auth_service\\logs\\winston\\errors\\2023-07-22-20 UPM-error.log",
+            "hash": "26401bcfe36a4d1c5ea4ce419ac58f0594edb16b2aa646c3fdea31e518a0aac3"
+        },
+        {
+            "date": 1690039060190,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\intertview_task\\interview_task_backend\\university_project_management_auth_service\\logs\\winston\\errors\\2023-07-22-21 UPM-error.log",
+            "hash": "e2d1849258aa59b8cfc802e510dd0523d2430ca72cb2b3d858fe412076d268ee"
+        },
+        {
+            "date": 1690041721247,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\intertview_task\\interview_task_backend\\university_project_management_auth_service\\logs\\winston\\errors\\2023-07-22-22 UPM-error.log",
+            "hash": "8cea6ceb03de51b14fbbdec4821a9454af06c930fb4cb4a7d488d6f9a52abc1b"
+        },
+        {
+            "date": 1690045828411,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\intertview_task\\interview_task_backend\\university_project_management_auth_service\\logs\\winston\\errors\\2023-07-22-23 UPM-error.log",
+            "hash": "6d5b8ead41880e4979d6acbb3adc1d2e7fab8dc193d5c5aa5dcc60259e5209a9"
+        },
+        {
+            "date": 1690048816344,
+            "name": "D:\\Programming_subjects\\Programming_Hero\\intertview_task\\interview_task_backend\\university_project_management_auth_service\\logs\\winston\\errors\\2023-07-23-00 UPM-error.log",
+            "hash": "a858a80a79e916813970886bd8c2b99dc3be627a0b84bd32876e7b011d3db4ad"
+        }
+    ],
+    "hashType": "sha256"
+}
